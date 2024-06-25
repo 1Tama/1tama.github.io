@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+@media (max-width: 1024px) {
+	#responsive-on {
+	  display: none;
+	}
+	#responsive-off {
+	  display: block;
+	}
+  }
+
+  @media (max-width: 768px) {
+	#responsive-on {
+	  display: block;
+	}
+	#responsive-off {
+	  display: none;
+	}
+  }
+  
 /* styles for desktop devices */
 @media only screen and (min-width: 992px) {
 	body {
