@@ -1,5 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+/* styles for desktop devices */
+@media only screen and (min-width: 992px) {
+	body {
+	  font-size: 16px;
+	  width: 100%;
+	  margin: auto;
+	}
+  }
+  
+  /* styles for tablet devices */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+	body {
+	  font-size: 14px;
+	  width: 80%;
+	  margin: auto;
+	}
+  }
+  
+  /* styles for mobile devices */
+  @media only screen and (max-width: 767px) {
+	body {
+	  font-size: 12px;
+	  width: 60%;
+	  margin: auto;
+	}
+  }
+
 :root{
 	--main-background: #0b0c0f;
 	--main-fonts-color: #fff;
@@ -363,8 +390,8 @@ hr {
 	width: 50px;
 	height: 50px;
 	border-style:none;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
 	object-fit:cover;
 	object-position:50% 50%;
 }
@@ -376,8 +403,8 @@ hr {
 	width: 50px;
 	height: 50px;
 	border-style:none;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
 	object-fit:cover;
 	object-position:50% 50%;
 }
@@ -389,8 +416,8 @@ hr {
 	width: 50px;
 	height: 50px;
 	border-style:none;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
 	image-resolution:cover;
 	object-position:50% 50%;
 }
@@ -402,8 +429,8 @@ hr {
 	width: 50px;
 	height: 50px;
 	border-style:none;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
 	image-resolution:cover;
 	object-position:50% 50%;
 }
@@ -415,8 +442,8 @@ hr {
 	width: 50px;
 	height: 50px;
 	border-style:none;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
 	image-resolution:cover;
 	object-position:50% 50%;
 }
@@ -439,7 +466,7 @@ hr {
 }
 
 .wtf div{
-	width: 30px;
+	width: 50%;
 	height: 3px;
 	background: #dbdbdb;
 	margin: 5px;
