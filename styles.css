@@ -18,32 +18,6 @@
 	}
   }
   
-/* styles for desktop devices */
-@media only screen and (min-width: 992px) {
-	body {
-	  font-size: 16px;
-	  width: 100%;
-	  margin: auto;
-	}
-  }
-  
-  /* styles for tablet devices */
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-	body {
-	  font-size: 14px;
-	  width: 80%;
-	  margin: auto;
-	}
-  }
-  
-  /* styles for mobile devices */
-  @media only screen and (max-width: 767px) {
-	body {
-	  font-size: 12px;
-	  width: 60%;
-	  margin: auto;
-	}
-  }
 
 :root{
 	--main-background: #0b0c0f;
@@ -527,19 +501,6 @@ hr {
 }
 
 
-@media only screen and (max-width: 500px) {
-
-	#home, #projects, #contact{
-        overflow-x: hidden;
-	}
-	header{
-		background-color: var(--main-header-background);
-	}
-	.logo{
-		position:absolute;
-		top: 2px;
-		left: 30px;
-	}
 /*	.nav-show{
 		opacity: 1;
 	}	 
